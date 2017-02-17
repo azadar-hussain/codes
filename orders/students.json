@@ -3,13 +3,13 @@
   "id"  : "110",
   "name": "azadar",
   "age" : 25,
-  "language" : ["english","hindi"],
+  "language" : ["english","hindi"]
 },
 {
   "id"  : "110",
   "name": "ibrahim",
   "age" : 30  ,
-  "language" : ["farsi","portogues"],
+  "language" : ["farsi","portogues"]
 
 }
 
