@@ -4,14 +4,13 @@
   "name": "azadar",
   "age" : 25,
   "language" : ["english","hindi"],
-  "imgurl" : "https://randomuser.me/api/portraits/men/33.jpg"
 },
 {
   "id"  : "110",
   "name": "ibrahim",
   "age" : 30  ,
   "language" : ["farsi","portogues"],
-   "imgurl" : "https://randomuser.me/api/portraits/men/33.jpg"
+
 }
 
 
