@@ -43,7 +43,7 @@ xhr.open('POST','https://azadar-hussain.github.io/codes/orders/students.json',tr
     data = JSON.parse(xhr.responseText +friend);
 
   }
-  xhr.type('jsonp')
+
   xhr.send();
 
     console.log(friend)
