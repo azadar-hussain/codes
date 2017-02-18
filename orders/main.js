@@ -9,7 +9,7 @@ $('#txt').keyup(function(){
       searchVal = RegExp(searchValReg,"gi");
       fContainer.html(' ');
       var xhr = new XMLHttpRequest();
-      xhr.open('Get','https://azadar-hussain.github.io/codes/orders/students.json',true);
+      xhr.open('Get','students.json',true);
       xhr.onload = function(){
             data = JSON.parse(xhr.responseText);
             console.log(data)
