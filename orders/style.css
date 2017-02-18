@@ -1,0 +1,118 @@
+body {
+  font-family: sans-serif;
+  color: #444;
+  font-size: 100;
+
+}
+
+@font-face {
+  font-family: 'handy';
+  src: url(fonts/CaviarDreams.ttf);
+}
+
+#container {
+  width: 500px;
+  background-color: none;
+}
+
+#searchbar {
+  display: flex;
+}
+
+#txt {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  font-size: 20px;
+  border: 1px solid rgb(47, 165, 209);
+    border-radius: 3px;
+    outline: none;
+}
+
+#btn {
+
+
+}
+#btn:hover {
+  cursor: pointer;
+}
+
+
+
+#btn svg {
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+#btn svg path {
+fill: rgb(57, 57, 57);
+}
+
+#btn:hover svg path {
+  fill :rgb(47, 165, 209);
+
+}
+
+#users-info {
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+    box-shadow: rgb(96, 96, 96) 0px 2px 4px;
+  transition: 1s;
+
+
+}
+
+
+#users-info .user {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgb(164, 164, 164);
+transition: 2s;
+
+  flex-direction: row;
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+#users-info .user:last-child {
+z-index: 1;
+}
+
+.user-info {
+  border-left: 1px solid rgb(152, 152, 152);
+  margin: 10px;
+  padding: 0 0 0 10px;
+  height: 70px;
+
+}
+.user-info h1 {
+  margin: 0px;
+  font-family: "handy";
+  font-size: 40px;
+  letter-spacing: 5px;
+  padding: 0px;
+
+}
+
+.user-info p {
+  margin: 0px;
+}
+
+#users-info .user img {
+  min-width: 80px;
+  height:80px;
+  margin: 10px;
+  margin-left: 20px;
+  border-radius: 50%;
+
+}
