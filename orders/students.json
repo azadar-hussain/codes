@@ -1,37 +1,27 @@
 [
 {
-  "id"  : "001",
   "name": "yousuf",
-  "age" : 22,
-  "language" : ["urdu","pashto"],
   "relation" : "friend",
   "imgurl" : "https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/16681578_353550351710411_4480460746682889370_n.jpg?oh=100714caad8e4c63c5fa402a2333b7f1&oe=593B69AD"
 },
 {
-  "id"  : "002",
+ 
   "name": "aqid",
-  "age" : 20  ,
-  "language" : ["urdu"],
   "relation" : "friend",
   "imgurl" : "https://lh3.googleusercontent.com/-IqmSl7-xeEc/AAAAAAAAAAI/AAAAAAAAAAo/IQQn0w05x04/s90-c-k-no/photo.jpg"
 
 },
 {
-  "id"  : "003",
+
   "name": "siritorn",
-  "age" : 20  ,
-  "language" : ["thai","english"],
   "relation" : "friend",
   "imgurl" : "https://fb-s-a-a.akamaihd.net/h-ak-xtp1/v/t1.0-0/p206x206/10574262_926571280770998_8559697841635871067_n.jpg?oh=bc0e9ed3127ac0b6e4d07b7cf108bca4&oe=59468A4F&__gda__=1497502434_8f28c26ff7ad8bbb1455057054c5bc8d"
 
 },
   {
-  
-  "id" : "004",
+
    "name" : "kumail",
-   "age" : "12",
     "relation" : "brother",
-    "language" : ["urdu","sindhi"],
     "imgurl" : "https://scontent-mrs1-1.xx.fbcdn.net/v/t31.0-8/13029480_263073754033909_3798862249566378250_o.jpg?oh=2b70552fc0ea5d6bbb1cd09f9122b6a5&oe=594C2145"
   
   
