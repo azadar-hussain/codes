@@ -9,7 +9,7 @@ $('#txt').keyup(function(){
       searchVal = RegExp(searchValReg,"gi");
       fContainer.html(' ');
       var xhr = new XMLHttpRequest();
-      xhr.open('Get','students.json',true);
+      xhr.open('Get','orders/students.json',true);
       xhr.onload = function(){
             data = JSON.parse(xhr.responseText);
             console.log(data)
@@ -37,10 +37,10 @@ $('#btn').click(function(){
       imgurl : $('#imgurl').val()
     }
 
-
-  $.post("https://azadar-hussain.github.io/codes/orders/students.json",friend,function(data,status){
-    console.log(data + "" + status);
-  });
+    var xttp = new XMLHttpRequest();
+    xhttp.open("POST", "orders/students.json", true);
+    xhttp.setRequestHeader("Content-type", "./orders");
+    xhttp.send(friend);
 
 
 
