@@ -40,9 +40,9 @@ $('#btn').click(function(){
 var xhr = new XMLHttpRequest();
 xhr.open('POST','https://azadar-hussain.github.io/codes/orders/students.json',true);
   xhr.onload = function(){
-    data = JSON.parse(xhr.responseText +friend);
+    data = JSON.parse(xhr.responseText);
 
-  }
+  };
 
   xhr.send();
 
