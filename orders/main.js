@@ -37,14 +37,12 @@ $('#btn').click(function(){
       imgurl : $('#imgurl').val()
     }
 
-var xhr = new XMLHttpRequest();
-xhr.open('POST','https://azadar-hussain.github.io/codes/orders/students.json',true);
-  xhr.onload = function(){
-    data = JSON.parse(xhr.responseText);
 
-  };
+  $.post("https://azadar-hussain.github.io/codes/orders/students.json",friend,function(data,status){
+    console.log(data + "" + status);
+  });
 
-  xhr.send();
+
 
     console.log(friend)
 
